@@ -44,7 +44,7 @@
       archive.bulk([{
         expand: true, 
         cwd: file.src[0], 
-        src: ['*'],
+        src: ['**'],
         dest: folder
       }]);
 
