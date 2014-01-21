@@ -41,10 +41,11 @@
 
       archive.pipe(output);
 
-      archive.bulk([{ 
+      archive.bulk([{
         expand: true, 
         cwd: file.src[0], 
-        src: ['**'] 
+        src: ['*'],
+        dest: folder
       }]);
 
       archive.finalize(function(err) {

@@ -3,10 +3,7 @@
   "description": "The best Grunt plugin ever.",
   "version": "0.1.0",
   "homepage": "https://github.com/alex.meah/grunt-zip-directories",
-  "author": {
-    "name": "Alex Meah",
-    "email": "alexmeahdotcom@gmail.com"
-  },
+  "author": "Alex Meah <alexmeahdotcom@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/alex.meah/grunt-zip-directories.git"
@@ -41,5 +38,10 @@
   "dependencies": {
     "archiver": "~0.5.1",
     "async": "~0.2.9"
-  }
+  },
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "license": "BSD"
 }
