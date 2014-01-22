@@ -1,6 +1,6 @@
 # grunt-zip-directories
 
-> The best Grunt plugin ever.
+> Zip all top level directories in a folder.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.2`
