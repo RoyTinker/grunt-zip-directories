@@ -20,6 +20,7 @@
     var archiver = require('archiver');
     var fs = require('fs');
     var path = require('path');
+    var os = require('os');
 
     function begin(file, callback) {
       // Make folder for zips
@@ -42,8 +43,8 @@
       archive.pipe(output);
 
       archive.bulk([{
-        expand: true, 
-        cwd: file.src[0], 
+        expand: true,
+        cwd: file.src[0],
         src: ['**'],
         dest: folder
       }]);
@@ -61,7 +62,7 @@
     }
 
     // Iterate over all specified file groups.
-    async.each(this.files, begin, function (err) {
+    async.eachLimit(this.files, os.cpus().length, begin, function (err) {
       if (err) { return console.log(err); }
 
       grunt.log.ok('Zipping complete ◕ ‿ ◕');
