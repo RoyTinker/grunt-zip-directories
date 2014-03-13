@@ -22,6 +22,8 @@
     var path = require('path');
     var os = require('os');
 
+    process.setMaxListeners(0);
+
     function begin(file, callback) {
       // Make folder for zips
       grunt.file.mkdir(path.dirname(file.dest));
