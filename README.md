@@ -1,5 +1,7 @@
 # grunt-zip-directories
 
+[![Build Status](http://ci.alexmeah.com/github.com/AlexMeah/grunt-zip-directories/status.svg?branch=master)](http://ci.alexmeah.com/github.com/AlexMeah/grunt-zip-directories)
+
 > Zip all top level directories in a folder.
 
 ## Getting Started
