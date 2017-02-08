@@ -1,5 +1,7 @@
 # grunt-zip-directories
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AlexMeah/grunt-zip-directories.svg)](https://greenkeeper.io/)
+
 [![Build Status](http://ci.alexmeah.com/github.com/AlexMeah/grunt-zip-directories/status.svg?branch=master)](http://ci.alexmeah.com/github.com/AlexMeah/grunt-zip-directories)
 
 > Zip all top level directories in a folder.
