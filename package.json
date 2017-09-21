@@ -1,7 +1,7 @@
 {
   "name": "grunt-zip-directories",
   "description": "The best Grunt plugin ever.",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "homepage": "https://github.com/AlexMeah/grunt-zip-directories",
   "author": {
     "name": "Alex Meah",
