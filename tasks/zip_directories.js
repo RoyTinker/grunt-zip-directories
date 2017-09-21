@@ -44,12 +44,7 @@
 
       archive.pipe(output);
 
-      archive.bulk([{
-        expand: true,
-        cwd: file.src[0],
-        src: ['**'],
-        dest: folder
-      }]);
+      archive.directory(file.src[0], folder);
 
       archive.finalize(function(err) {
         if (err) {
