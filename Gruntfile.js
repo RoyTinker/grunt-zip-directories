@@ -1,6 +1,6 @@
 /*
  * grunt-zip-directories
- * https://github.com/alex.meah/grunt-zip-directories
+ * https://github.com/RoyTinker/grunt-zip-directories
  *
  * Copyright (c) 2014 Alex Meah
  * Licensed under the MIT license.

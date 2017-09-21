@@ -1,4 +1,4 @@
-image: node0.10
+image: node:8
 script:
   - npm i
   - npm install -g grunt-cli
@@ -6,4 +6,4 @@ script:
 notify:
   email:
     recipients:
-      - alexmeah@gmail.com
+      - roytinker@gmail.com
